@@ -83,38 +83,79 @@
   display: flex;
   background-color: rgb(232 230 229);
   flex-wrap: wrap;
+  color: rgb(99 96 92);
+  justify-content: center;
 }
 
-.container__card-sounds {
+.store-elements h3 {
+  font-size: 17px;
+}
+.store-elements p {
+  font-size: 14px;
+}
+
+.container__card-delivery {
+  display: flex;
   border: none;
   width: 200px;
   height: 200px;
-  background-color: #03d998;
+
   margin: 10px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.container__card-people {
+.card-image_delivery,
+.card-image_repayment {
+  max-width: 60%;
+}
+
+.card-image_timing {
+  max-width: 40%;
+}
+
+.card-image_devolutions {
+  max-width: 50%;
+}
+
+.container__card-timing {
+  display: flex;
   border: none;
   width: 200px;
   height: 200px;
-  background-color: #03d998;
   margin: 10px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.container__card-moments {
+.container__card-devolutions {
+  display: flex;
   border: none;
   width: 200px;
   height: 200px;
-  background-color: #03d998;
+
   margin: 10px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.container__card-tips {
+.container__card-repayment {
+  display: flex;
   border: none;
   width: 200px;
   height: 200px;
-  background-color: #03d998;
+
   margin: 10px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 /* -------------ADAM SECTION -------------------*/
