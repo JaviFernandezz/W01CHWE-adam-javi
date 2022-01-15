@@ -1,0 +1,37 @@
+.container {
+  background-color: red;
+  height: 65px;
+}
+.header-box {
+  height: 65px;
+}
+
+.header-box__container-burger {
+  background-color: blueviolet;
+  height: 30x;
+  width: 30x;
+}
+
+.header-box__navigation-user {
+  background-color: green;
+}
+
+.header-box__navigation-buttons {
+  display: flex;
+  background-color: grey;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-icon,
+.cart-icon {
+  width: 30px;
+}
+
+.products-number {
+  font-size: 30px;
+}
