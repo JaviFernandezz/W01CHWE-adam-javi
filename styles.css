@@ -35,3 +35,22 @@ nav ul {
 .products-number {
   font-size: 30px;
 }
+
+ .article-box.container {
+  background-color: white;
+}
+
+.cake-icon {
+  width: 130px;
+}
+
+main img {
+  width: 325px;
+}
+
+h1 {
+  display: flex;
+  text-align: center;
+  font-size: 10px;
+  
+}
