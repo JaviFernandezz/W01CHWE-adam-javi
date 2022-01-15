@@ -62,3 +62,48 @@
   text-justify: center;
   color: white;
 }
+
+
+/* -------------ADAM SECTION -------------------*/
+ .article-box.container {
+  background-color: white;
+}
+
+.cake-icon {
+  width: 130px;
+}
+
+main img {
+  width: 325px;
+}
+
+h1 {
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+.main.main__articles.col-12{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main.main__heading.col-12 {
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.main-box.row{
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;;
+}
+
+.main-row.col-12{
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
