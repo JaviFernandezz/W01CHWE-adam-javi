@@ -7,20 +7,32 @@
 }
 
 .header-box__container-burger {
+  display: flex;
   background-color: blueviolet;
   height: 30x;
   width: 30x;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .header-box__navigation-user {
   background-color: green;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .header-box__navigation-buttons {
   display: flex;
   background-color: grey;
+  justify-content: space-around;
+  padding: 0;
+  flex-direction: column;
 }
 
+.products-number {
+  background-color: rgb(236 101 95);
+}
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -28,10 +40,17 @@ nav ul {
 }
 
 .search-icon,
-.cart-icon {
+.cart-icon,
+.user-icon {
   width: 30px;
+  padding: 0;
 }
 
 .products-number {
   font-size: 30px;
+}
+
+.buttons-right {
+  display: flex;
+  margin: 0;
 }

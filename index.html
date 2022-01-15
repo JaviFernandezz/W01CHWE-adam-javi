@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <link
       rel="shortcut icon"
       href="https://static3.marialunarillos.com/media/favicon/default/favicon_1.png
@@ -22,21 +22,29 @@
   </head>
   <body>
     <header>
-      <div class="header container">
+      <div class="header-container">
         <div class="header-box row justify-content-evenly">
-          <div class="header-box header-box__container-burger col-1">
-            <img src="" class="burger" />
+          <div class="header-box header-box__container-burger">
+            <img src="/images/burger_menu.png" class="burger" />
           </div>
 
-          <div class="header-box header-box__navigation-user col-1"></div>
+          <div class="header-box header-box__navigation-user">
+            <img src="/images/usuario.png" class="user-icon" alt="" />
+          </div>
+        </div>
 
-          <nav class="header-box header-box__navigation-buttons col-3">
-            <ul class="list-unstyled">
-              <li><img src="images/lupa.png" class="search-icon" /></li>
-              <li><img src="images/carro.png" class="cart-icon" /></li>
-              <li class="products-number">0</li>
-            </ul>
-          </nav>
+        <div>
+          <div class="header-box header-box__navigation-search">
+            <img src="/images/lupa.png" class="search-icon" />
+          </div>
+
+          <div class="header-box header-box__navigation-cart">
+            <img src="/images/carro.png" class="cart-icon" />
+          </div>
+
+          <div class="header-box header-box__navigation-quantity">
+            <p class="products-number">0</p>
+          </div>
         </div>
       </div>
     </header>
@@ -93,7 +101,6 @@
           <button type="button" class="button-main">VER MÁS</button>
         </section>
         <section>
-
           <section></section>
           <section>
             <form></form>
@@ -104,5 +111,4 @@
     </main>
     <footer></footer>
   </body>
-
 </html>
