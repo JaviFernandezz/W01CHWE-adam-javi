@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <link
       rel="shortcut icon"
-      href="https://static3.marialunarillos.com/media/favicon/default/favicon_1.png
-  "
+      href="https://static3.marialunarillos.com/media/favicon/default/favicon_1.png"
       type="image/x-icon"
     />
 
@@ -21,88 +20,83 @@
     <title>Utensilios de Repostería - Tienda online María Lunarillos</title>
   </head>
   <body>
-    <header>
-      <div class="header container">
-        <div class="header-box row justify-content-evenly">
-          <div class="header-box header-box__container-burger col-1">
-            <img src="" class="burger" />
+    <div class="container"> <!----container for bootstrap-->
+      <header>
+        <div class="header col-12">
+          <div class="header-box row justify-content-evenly">
+            <div class="header-box header-box__container-burger col-1">
+              <img src="" class="burger" />
+            </div>
+
+            <div class="header-box header-box__navigation-user col-1"></div>
+
+            <nav class="header-box header-box__navigation-buttons col-3">
+              <ul class="list-unstyled">
+                <li><img src="images/lupa.png" class="search-icon" /></li>
+                <li><img src="images/carro.png" class="cart-icon" /></li>
+                <li class="products-number">0</li>
+              </ul>
+            </nav>
           </div>
-
-          <div class="header-box header-box__navigation-user col-1"></div>
-
-          <nav class="header-box header-box__navigation-buttons col-3">
-            <ul class="list-unstyled">
-              <li><img src="images/lupa.png" class="search-icon" /></li>
-              <li><img src="images/carro.png" class="cart-icon" /></li>
-              <li class="products-number">0</li>
-            </ul>
-          </nav>
         </div>
-      </div>
-    </header>
-
-    <main class="main-box container">
-      <div class="main row">
-        <div class="main main__heading col-12">
-          <img
-            src="images/tarta-cumpleanos.png"
-            alt="Icono de pastel de cumpleaños"
-          />
-          <h1>FIESTAS</h1>
-        </div>
-        <div class="main main__articles col-10">
-          <div class="article-box container">
-            <div class="images-box row">
-              <article class="images-box images-box__1 col-8">
-                <div>
+      </header>
+    <!---------------------ADAM'S SECTION------------------------------>
+      <main class="main-box row">
+        <div class="main-row col-12">
+          <div class="main-row main__heading col-12">
+            <img src="images/tarta-cumpleanos.png" class="cake-icon" alt="Icono de pastel de cumpleaños">
+            <h1>FIESTAS</h1>
+          </div>
+          <div class="main main__articles col-12">
+            <div class="article-box">
+              <div class="images-box">
+                <article class="images-box images-box__1">
                   <div>
-                    <p>FIESTAS TEMÁTICAS</p>
+                      <p>FIESTAS TEMÁTICAS</p>
+                    <img
+                      class="image-1"
+                      src="images/image_card1-02.png"
+                      alt="Mesa con decoraciones festivas y un cupcake"
+                    />
                   </div>
-                  <img
-                    src="images/image_card1-02.png"
-                    alt="Mesa con decoraciones festivas y un cupcake"
-                  />
-                </div>
-              </article>
-              <article class="images-box images-box__2">
-                <div class="image-container-1">
-                  <div>
+                </article>
+                <article class="images-box images-box__2">
+                  <div class="image-container-1">
                     <p>FIESTAS PERSONAJES</p>
+                    <img
+                      class="image-2"
+                      src="images/image-card.jpeg"
+                      alt="Plato festivo con un fondo de de Emma de Frozen"
+                    />
                   </div>
-                  <img
-                    src="images/image-card.jpeg"
-                    alt="Plato festivo con un fondo de de Emma de Frozen"
-                  />
-                </div>
-              </article>
-              <article class="images-box images-box__3">
-                <div class="image-container-1">
-                  <div>
-                    <p>ACCESORIOS PARA FIESTAS</p>
+                </article>
+                <article class="images-box images-box__3">
+                  <div class="image-container-1">
+                      <p>ACCESORIOS PARA FIESTAS</p>
+                    <img
+                      class="image-3"
+                      src="images/image_card1-01.png"
+                      alt="Sala con decoraciones festivas de colores pastel"
+                    />
                   </div>
-                  <img
-                    src="images/image_card1-01.png"
-                    alt="Sala con decoraciones festivas de colores pastel"
-                  />
-                </div>
-              </article>
+                </article>
+              </div>
             </div>
           </div>
-        </div>
-        <section>
-          <button type="button" class="button-main">VER MÁS</button>
-        </section>
-        <section>
-
-          <section></section>
           <section>
-            <form></form>
+            <button type="button" class="button-main">VER MÁS</button>
           </section>
-          <section></section>
-        </section>
-      </div>
-    </main>
-    <footer></footer>
-  </body>
+          <section>
 
+            <section></section>
+            <section>
+              <form></form>
+            </section>
+            <section></section>
+          </section>
+        </div>
+      </main>
+      <footer></footer>
+    </div>
+  </body>
 </html>
