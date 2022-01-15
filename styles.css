@@ -1,10 +1,21 @@
 .container {
   background-color: red;
-  height: 70px;
+  height: 65px;
+}
+.header-box {
+  height: 65px;
 }
 
 .header-box__container-burger {
   background-color: blueviolet;
   height: 30x;
   width: 30x;
+}
+
+.header-box__navigation-user {
+  background-color: green;
+}
+
+.header-box__navigation-buttons {
+  background-color: grey;
 }
