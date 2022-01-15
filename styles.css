@@ -79,6 +79,48 @@
   align-items: center;
 }
 
+.store-elements {
+  display: flex;
+  background-color: rgb(232 230 229);
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.container__card-sounds {
+  border: none;
+  width: 200px;
+  height: 200px;
+  background-color: #03d998;
+  margin: 10px;
+}
+
+.container__card-people {
+  border: none;
+  width: 200px;
+  height: 200px;
+  background-color: #03d998;
+  margin: 10px;
+}
+
+.container__card-moments {
+  border: none;
+  width: 200px;
+  height: 200px;
+  background-color: #03d998;
+  margin: 10px;
+}
+
+.container__card-tips {
+  border: none;
+  width: 200px;
+  height: 200px;
+  background-color: #03d998;
+  margin: 10px;
+}
+
 /* -------------ADAM SECTION -------------------*/
 .article-box.container {
   background-color: white;
