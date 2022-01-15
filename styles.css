@@ -171,10 +171,11 @@ main img {
   width: 325px;
 }
 
-h1 {
+.heading1 {
   display: flex;
   text-align: center;
-  font-size: 30px;
+  font-size: 18px;
+  margin: 0;
 }
 
 .main.main__articles.col-12 {
@@ -201,8 +202,26 @@ h1 {
   align-items: center;
 }
 
-.image-container-1.col-1 {
-  background-color: rgba(255, 255, 255, 0.8);
-  display: flex;
+.card-text {
+  margin: 0;
+  z-index: 0;
+  position: ab;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.6;
+  display: column;
+  align-items: flex-start;
+  width: 162,5px;
+  
+}
+
+.image-1, .image-2, .image-3{
+  z-index: 1;
   position: relative;
 }
+
+.heading2 { 
+  font-size: 16px;
+  z-index: 1;
+}
+
+/* width: 162.5px; */
