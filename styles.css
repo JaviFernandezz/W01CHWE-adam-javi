@@ -418,6 +418,23 @@ main img {
   .header-box__container-burger{
     display: none;
   }
+
+  .logo-rojo{
+    display: none;
+  }
+  
+  .logo-icon-box{
+    padding-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+  } 
+
+  .main-header {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
 }
 
 
