@@ -2,6 +2,27 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+a:link,
+a:visited,
+a:active,
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.image-1,
+.image-2,
+.image-3 {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.image-1:hover,
+.image-2:hover,
+.image-3:hover {
+  width: 300px;
+  opacity: 0.8;
+}
+
 .header-container {
   background-color: rgb(249 248 248);
   display: flex;
