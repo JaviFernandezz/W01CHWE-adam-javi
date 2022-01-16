@@ -380,9 +380,29 @@ main img {
   display: none;
 }
 /* MEDIA QUERIES */
+  .container {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
 @media (min-width: 600px) {
   .header-responsive__menu {
     display: block;
   }
+  .container {
+    min-width: 100% !important;
+  }
+
+  .container-responsive.d-flex {
+    padding: 0;
+  }
+
+
+
 }
+
+
+  
+  /* section adam*/
+
 
