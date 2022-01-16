@@ -315,7 +315,7 @@ main img {
 
 .heading1 {
   display: flex;
-  text-align: center;
+  text-align: justify;
   font-size: 18px;
   margin: 0;
   font-weight: bold;
@@ -381,7 +381,7 @@ main img {
 .heading2 {
   font-size: 16px;
   margin: 0;
-  text-align: center;
+  text-align: justify;
 }
 
 .logo-icon-box {
