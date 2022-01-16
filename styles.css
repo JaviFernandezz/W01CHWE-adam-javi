@@ -85,6 +85,8 @@
   flex-wrap: wrap;
   color: rgb(99 96 92);
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .store-elements h3 {
@@ -92,13 +94,12 @@
 }
 .store-elements p {
   font-size: 14px;
+  text-align: center;
 }
 
 .container__card-delivery {
   display: flex;
   border: none;
-  width: 200px;
-  height: 200px;
 
   margin: 10px;
   flex-direction: column;
@@ -110,52 +111,65 @@
 .card-image_delivery,
 .card-image_repayment {
   max-width: 60%;
+  margin: 8px;
+}
+
+.container__card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card-image_timing {
   max-width: 40%;
+  margin: 17px;
 }
 
 .card-image_devolutions {
   max-width: 50%;
+  margin: 2px;
 }
 
 .container__card-timing {
   display: flex;
   border: none;
-  width: 200px;
-  height: 200px;
+
   margin: 10px;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .container__card-devolutions {
   display: flex;
   border: none;
-  width: 200px;
-  height: 200px;
 
   margin: 10px;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .container__card-repayment {
   display: flex;
   border: none;
-  width: 200px;
-  height: 200px;
 
   margin: 10px;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+}
+
+.store-elements-info {
+  display: flex;
+}
+
+.store-elements__group {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 /* -------------ADAM SECTION -------------------*/
@@ -202,29 +216,30 @@ main img {
   align-items: center;
 }
 
-.card-text{
-    margin-bottom: 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-    width: 50%;
-    height: 50%;
-    flex-direction: row;
-    align-items: center;
-    justify-items: center;
-    display: flex;
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 20px;
+.card-text {
+  margin-bottom: 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  width: 50%;
+  height: 50%;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
 }
 
-.image-container-1, .image-container-2, .image-container-3{
+.image-container-1,
+.image-container-2,
+.image-container-3 {
   position: relative;
   margin-bottom: 10px;
 }
 
-.heading2 { 
+.heading2 {
   font-size: 16px;
   margin: 0;
   text-align: center;
 }
-
