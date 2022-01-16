@@ -217,26 +217,29 @@ main img {
 }
 
 .card-text {
-  margin: 0;
-  z-index: 0;
-  position: ab;
-  background-color: rgb(255, 255, 255);
-  opacity: 0.6;
-  display: column;
-  align-items: flex-start;
-  width: 162, 5px;
+  margin-bottom: 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  width: 50%;
+  height: 50%;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
 }
 
-.image-1,
-.image-2,
-.image-3 {
-  z-index: 1;
+.image-container-1,
+.image-container-2,
+.image-container-3 {
   position: relative;
+  margin-bottom: 10px;
 }
 
 .heading2 {
   font-size: 16px;
-  z-index: 1;
+  margin: 0;
+  text-align: center;
 }
-
-/* width: 162.5px; */
