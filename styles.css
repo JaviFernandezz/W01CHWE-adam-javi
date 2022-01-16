@@ -1,3 +1,7 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 .header-container {
   background-color: rgb(249 248 248);
   display: flex;
@@ -293,6 +297,7 @@ main img {
   text-align: center;
   font-size: 18px;
   margin: 0;
+  font-weight: bold;
 }
 
 .main.main__articles.col-12 {
@@ -376,13 +381,13 @@ main img {
   margin-top: 50px;
 }
 
-.header-responsive__menu{
+.header-responsive__menu {
   display: none;
 }
 /* MEDIA QUERIES */
-  .container {
-    flex-direction: column;
-  }
+.container {
+  flex-direction: column;
+}
 
 @media (min-width: 600px) {
   .header-responsive__menu {
@@ -409,26 +414,26 @@ main img {
   }
 
   .menu-elements__image-2 {
-    background-color: rgb(109	152	173);
+    background-color: rgb(109 152 173);
   }
   .menu-elements__image-3 {
-    background-color: rgb(237,	182, 81);
+    background-color: rgb(237, 182, 81);
   }
 
-  .header-box__container-burger{
+  .header-box__container-burger {
     display: none;
   }
 
-  .logo-rojo{
+  .logo-rojo {
     display: none;
   }
-  
-  .logo-icon-box{
+
+  .logo-icon-box {
     padding-left: 100px;
     margin-top: 50px;
     display: flex;
     justify-content: flex-start;
-  } 
+  }
 
   .main-header {
     display: flex;
@@ -437,8 +442,4 @@ main img {
   }
 }
 
-
-  
-  /* section adam*/
-
-
+/* section adam*/
