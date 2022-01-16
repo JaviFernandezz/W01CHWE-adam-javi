@@ -192,11 +192,18 @@
   margin: 5px;
 }
 
-.form-container__button {
+.form-container__button, .button-main {
   background-color: rgb(230 98 92);
   border: none;
   color: white;
   font-weight: bold;
+}
+
+.button-main {
+  height: 50px;
+  width: 120px;
+  font-weight: 500;
+  margin-top: 50px;
 }
 
 .upper-bar-newsletter,
