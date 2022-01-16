@@ -193,14 +193,16 @@
   margin: 5px;
 }
 
-.form-container__button, .button-main {
+.form-container__button,
+.button-main {
   background-color: rgb(230, 98, 92);
   border: none;
   color: white;
   font-weight: bold;
 }
 
-.form-container__button:hover, .button-main:hover {
+.form-container__button:hover,
+.button-main:hover {
   background-color: rgb(255, 255, 255);
   border: none;
   color: rgb(230, 98, 92);
@@ -208,7 +210,8 @@
   border: 3px solid rgb(230, 98, 92);
 }
 
-.form-container__button:active, .button-main:active {
+.form-container__button:active,
+.button-main:active {
   background-color: rgb(230, 98, 92);
   border: none;
   color: white;
@@ -243,6 +246,27 @@
   padding: 0px;
 }
 
+.about-us__icons__list {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.about-us__icons__list h4 {
+  font-size: 13px;
+  color: rgb(236 102 98);
+
+  margin: 5px 10px 10px 15px;
+}
+
+.about-us__icons__list li {
+  display: flex;
+  flex-direction: column;
+}
 
 /* -------------ADAM SECTION -------------------*/
 .article-box.container {
