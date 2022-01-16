@@ -183,7 +183,11 @@
 }
 
 .cake-icon {
-  width: 130px;
+  width: 90px;
+}
+
+.cake-box {
+  margin-top: 40px;
 }
 
 main img {
@@ -201,6 +205,7 @@ main img {
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color: rgb(248, 248, 248);
 }
 .main.main__heading.col-12 {
   display: flex;
@@ -270,4 +275,8 @@ main img {
 border: 1px solid rgb(70, 68, 64);
   display: flex;
   margin: 0 auto;
+}
+
+.images-box {
+  margin-top: 50px;
 }
