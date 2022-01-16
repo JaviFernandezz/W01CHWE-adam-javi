@@ -173,8 +173,37 @@
   flex-wrap: nowrap;
 }
 
-.form__structure {
+.form-container__containt {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.form-container__containt h4 {
+  font-size: 15px;
+}
+
+.input-area-text,
+.form-container__button {
+  height: 40px;
+  width: 325px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.form-container__button {
+  background-color: rgb(230 98 92);
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.upper-bar-newsletter,
+.lower-bar-newsletter {
+  width: 325px;
+  border: 1px solid rgb(70, 68, 64);
+  margin: 50px auto;
 }
 
 /* -------------ADAM SECTION -------------------*/
