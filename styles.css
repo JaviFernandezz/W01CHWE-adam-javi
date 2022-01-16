@@ -243,6 +243,16 @@ main img {
   margin-bottom: 10px;
 }
 
+.image-container-1{
+  margin-top: 70px;
+} 
+
+.main__articles .heading1{
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
 .heading2 {
   font-size: 16px;
   margin: 0;
@@ -253,4 +263,11 @@ main img {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+}
+
+.upper-bar, .lower-bar {
+  width: 150px;
+border: 1px solid rgb(70, 68, 64);
+  display: flex;
+  margin: 0 auto;
 }
