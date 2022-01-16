@@ -382,7 +382,6 @@ main img {
 /* MEDIA QUERIES */
   .container {
     flex-direction: column;
-    margin: 0 auto;
   }
 
 @media (min-width: 600px) {
@@ -397,8 +396,24 @@ main img {
     padding: 0;
   }
 
+  .menu-elements {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
 
+  .menu-elements__image-1 {
+    background-color: rgb(237, 101, 95);
+  }
 
+  .menu-elements__image-2 {
+    background-color: rgb(109	152	173);
+  }
+  .menu-elements__image-3 {
+    background-color: rgb(237,	182, 81);
+  }
 }
 
 
