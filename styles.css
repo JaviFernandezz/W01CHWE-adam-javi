@@ -375,3 +375,14 @@ main img {
 .upper-bar {
   margin-top: 50px;
 }
+
+.header-responsive__menu{
+  display: none;
+}
+/* MEDIA QUERIES */
+@media (min-width: 600px) {
+  .header-responsive__menu {
+    display: block;
+  }
+}
+
