@@ -184,10 +184,13 @@
 
 .cake-icon {
   width: 90px;
+  z-index: 1;     /*----pending to move ------*/
+  top: -50px;
 }
 
 .cake-box {
   margin-top: 40px;
+  z-index: 0;
 }
 
 main img {
