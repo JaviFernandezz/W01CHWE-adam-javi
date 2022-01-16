@@ -79,6 +79,13 @@ a {
   padding: 0;
   align-self: center;
   justify-self: center;
+  transition-duration: 0.6s;
+}
+.user-icon:hover,
+.cart-icon:hover,
+.search-icon:hover,
+.burger:hover {
+  transform: scale(1.5);
 }
 
 .products-number {
