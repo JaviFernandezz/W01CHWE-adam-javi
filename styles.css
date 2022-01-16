@@ -59,7 +59,7 @@
 .products-number {
   font-size: 30px;
   text-align: center;
-  text-justify: center;
+
   color: white;
   margin: 0px;
 }
@@ -87,6 +87,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin: 70px 0;
 }
 
 .store-elements h3 {
@@ -180,7 +181,8 @@
   padding: 0;
 }
 
-.form-container__containt h4 {
+.form-container__containt h4,
+.social-media h4 {
   font-size: 15px;
 }
 
@@ -213,6 +215,19 @@
   margin: 50px auto;
 }
 
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-media__icons__list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 0px;
+}
+
 /* -------------ADAM SECTION -------------------*/
 .article-box.container {
   background-color: white;
@@ -220,7 +235,7 @@
 
 .cake-icon {
   width: 90px;
-  z-index: 1;     /*----pending to move ------*/
+  z-index: 1; /*----pending to move ------*/
   top: -50px;
 }
 
@@ -287,11 +302,11 @@ main img {
   margin-bottom: 10px;
 }
 
-.image-container-1{
+.image-container-1 {
   margin-top: 70px;
-} 
+}
 
-.main__articles .heading1{
+.main__articles .heading1 {
   display: flex;
   justify-content: center;
   margin: 15px 0;
@@ -309,9 +324,10 @@ main img {
   margin-top: 30px;
 }
 
-.upper-bar, .lower-bar {
+.upper-bar,
+.lower-bar {
   width: 150px;
-border: 1px solid rgb(70, 68, 64);
+  border: 1px solid rgb(70, 68, 64);
   display: flex;
   margin: 0 auto;
 }
