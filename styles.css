@@ -2,6 +2,14 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+a:link,
+a:visited,
+a:active,
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .header-container {
   background-color: rgb(249 248 248);
   display: flex;
