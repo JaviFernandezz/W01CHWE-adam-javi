@@ -87,6 +87,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin: 70px 0;
 }
 
 .store-elements h3 {
@@ -180,7 +181,8 @@
   padding: 0;
 }
 
-.form-container__containt h4 {
+.form-container__containt h4,
+.social-media h4 {
   font-size: 15px;
 }
 
@@ -206,8 +208,17 @@
   margin: 50px auto;
 }
 
-.socia-media_icons {
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-media__icons__list {
+  display: flex;
   list-style: none;
+  align-items: center;
+  padding: 0px;
 }
 
 /* -------------ADAM SECTION -------------------*/
