@@ -248,3 +248,9 @@ main img {
   margin: 0;
   text-align: center;
 }
+
+.logo-icon-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
