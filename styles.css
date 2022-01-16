@@ -414,6 +414,10 @@ main img {
   .menu-elements__image-3 {
     background-color: rgb(237,	182, 81);
   }
+
+  .header-box__container-burger{
+    display: none;
+  }
 }
 
 
