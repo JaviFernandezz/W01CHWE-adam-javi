@@ -246,6 +246,28 @@
   padding: 0px;
 }
 
+.about-us__icons__list {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.about-us__icons__list h4 {
+  font-size: 13px;
+  color: rgb(236 102 98);
+
+  margin: 5px 10px 10px 15px;
+}
+
+.about-us__icons__list li {
+  display: flex;
+  flex-direction: column;
+}
+
 /* -------------ADAM SECTION -------------------*/
 .article-box.container {
   background-color: white;
