@@ -2,6 +2,27 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+a:link,
+a:visited,
+a:active,
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.image-1,
+.image-2,
+.image-3 {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.image-1:hover,
+.image-2:hover,
+.image-3:hover {
+  width: 300px;
+  opacity: 0.8;
+}
+
 .header-container {
   background-color: rgb(249 248 248);
   display: flex;
@@ -58,6 +79,13 @@ body {
   padding: 0;
   align-self: center;
   justify-self: center;
+  transition-duration: 0.6s;
+}
+.user-icon:hover,
+.cart-icon:hover,
+.search-icon:hover,
+.burger:hover {
+  transform: scale(1.5);
 }
 
 .products-number {
@@ -294,7 +322,7 @@ main img {
 
 .heading1 {
   display: flex;
-  text-align: center;
+  text-align: justify;
   font-size: 18px;
   margin: 0;
   font-weight: bold;
@@ -360,7 +388,7 @@ main img {
 .heading2 {
   font-size: 16px;
   margin: 0;
-  text-align: center;
+  text-align: justify;
 }
 
 .logo-icon-box {
