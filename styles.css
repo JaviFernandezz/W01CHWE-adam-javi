@@ -22,7 +22,9 @@ a {
   width: 300px;
   opacity: 0.8;
 }
-
+.brands-container-box {
+  display: none;
+}
 .header-container {
   background-color: rgb(249 248 248);
   display: flex;
@@ -573,6 +575,7 @@ main img {
     margin-bottom: 50px;
   }
 
+
   .search-container {
     display: flex;
     flex-direction: row;
@@ -639,5 +642,51 @@ main img {
     text-align: center;
   }
 }
+=======
+  .images-box-responsive {
+    display: flex;
+    width: 760px;
+
+    align-items: flex-end;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-between;
+  }
+
+  .images-box-left,
+  .images-box-right {
+    margin: 5px;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .images-box-left img {
+    width: 480px;
+  }
+  .images-box-right img {
+    width: 300px;
+    height: 337px;
+    object-fit: none;
+  }
+
+  .images-box-right img {
+    height: 414px;
+    content: url(images/pompones.png);
+  }
+
+  .card-text--responsive {
+    height: 100px;
+  }
+
+  .image-container-1 {
+    display: flex;
+   justify-content: flex-end;
+  }
+
+ 
+
+
+
 
 /* section adam*/
