@@ -38,6 +38,10 @@ a {
   flex-direction: row;
 }
 
+.button-main--brands {
+  visibility: hidden;
+}
+
 .header-box-right {
   display: flex;
   flex-direction: row;
@@ -308,7 +312,7 @@ a {
 .article-box.container {
   background-color: white;
 }
-
+ 
 .cake-icon {
   width: 90px;
   z-index: 1; /*----pending to move ------*/
@@ -577,6 +581,12 @@ main img {
   }
 
 
+  .button-main--brands {
+    visibility: visible;
+  }
+
+
+
   .search-container {
     display: flex;
     flex-direction: row;
@@ -672,6 +682,7 @@ main img {
     text-align: center;
     
   }
+  
   .images-box-responsive {
     display: flex;
     width: 760px;
@@ -710,13 +721,9 @@ main img {
 
   .image-container-1 {
     display: flex;
-   justify-content: flex-end;
+    justify-content: flex-end;
   }
 }
-  
-
- 
-
 
 
 
