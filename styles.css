@@ -622,6 +622,7 @@ main img {
 
   .search-icon-container__icon {
     width: 30px;
+  } 
 
   .search-icon-container:hover {
     background-color: rgb(122, 122, 122);
@@ -649,7 +650,7 @@ main img {
   }
 
   .menu-bar-section-logos a div {
-
+  }
 
   .news-search-bar a,
   .offer-search-bar a{
@@ -690,12 +691,11 @@ main img {
 
   .menu-bar-section-logos a h2 {
     font-size: 16px;
+  } 
 
   .menu-bar-section-logos a h2{
     font-size: 12px;
-
     text-align: center;
-    
   }
 
 
