@@ -443,53 +443,52 @@ main img {
     margin: 0;
   }
 
-  .menu-elements__image-2:hover, 
+  .menu-elements__image-2:hover,
   .menu-elements__image-3:hover {
     height: 150px;
     width: 30px;
-    position: relative;;
+    position: relative;
     z-index: 1;
+  }
 
-  } 
-  
   .header-responsive__menu {
     display: row;
     justify-content: flex-start;
     z-index: 7;
   }
 
-  .menu-elements__image-1 img{
+  .menu-elements__image-1 img {
     background-color: rgb(237, 101, 95);
     width: 60px;
   }
 
   .menu-elements__image-1:hover,
   .menu-elements__image-2:hover,
-  .menu-elements__image-3:hover{
+  .menu-elements__image-3:hover {
     width: 60px;
     height: 60px;
     z-index: 1;
   }
 
-  .menu-elements__image-1__space{
+  .menu-elements__image-1__space {
     width: 60px;
     height: 60px;
     background-color: rgb(237, 101, 95);
   }
 
-  .menu-elements__image-2__space{
+  .menu-elements__image-2__space {
     background-color: rgb(109 152 173);
     height: 60px;
     width: 60px;
   }
 
-  .menu-elements__image-3__space{
+  .menu-elements__image-3__space {
     background-color: rgb(237, 182, 81);
     height: 60px;
     width: 60px;
   }
 
-  .menu-elements__image-2__space:hover{
+  .menu-elements__image-2__space:hover {
     height: 120px;
     width: 60px;
     z-index: 0;
@@ -503,7 +502,7 @@ main img {
   .header-responsive__menu__elements {
     height: 300px;
     z-index: 1;
-    position: fixed
+    position: fixed;
   }
   .header-box__container-burger {
     display: none;
@@ -524,6 +523,46 @@ main img {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+  }
+
+  .brands-container-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .brands-container-box_logos {
+    margin: 0;
+    width: 760px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .brands-container-box_logos img {
+    width: 100px;
+    margin: 5px;
+    filter: grayscale(100%);
+  }
+  .brands-container-box_logos img:hover {
+    filter: grayscale(0%);
+  }
+
+  .brands-container-box h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 2px;
+    margin-bottom: 50px;
   }
 }
 
