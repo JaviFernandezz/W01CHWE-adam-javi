@@ -548,6 +548,10 @@ main img {
   .brands-container-box_logos img {
     width: 100px;
     margin: 5px;
+    filter: grayscale(100%);
+  }
+  .brands-container-box_logos img:hover {
+    filter: grayscale(0%);
   }
 
   .brands-container-box h2 {
