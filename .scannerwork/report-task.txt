@@ -1,0 +1,6 @@
+projectKey=W01CHWE-adam-javi
+serverUrl=http://localhost:9000
+serverVersion=9.2.4.50792
+dashboardUrl=http://localhost:9000/dashboard?id=W01CHWE-adam-javi
+ceTaskId=AX5pTlDDsKDSJdhrM3G1
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX5pTlDDsKDSJdhrM3G1
