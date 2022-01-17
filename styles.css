@@ -532,6 +532,7 @@ main img {
     display: flex;
     justify-content: flex-start;
   }
+  
 
   .main-header {
     display: flex;
@@ -619,6 +620,10 @@ main img {
     position: relative;
   }
 
+  .search-icon-container:hover {
+    background-color: rgb(122, 122, 122);
+  }
+  
   .search-icon-container__icon{
     width: 30px; 
   }
@@ -636,8 +641,27 @@ main img {
 
   .menu-bar-section-logos a div img {
     width: 50px;
-    
   }
+
+  .news-search-bar a,
+  .offer-search-bar a{
+    height: 30px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    align-items: center;
+  }
+
+  .offer-search-bar {
+    background-color: rgb(138, 121, 154);
+  }
+
+  .news-search-bar {
+    background-color: rgb(162, 168, 90);
+  }
+
   .menu-bar-section-logos a div{
     width: 100px;
     height: 100px;
@@ -645,14 +669,20 @@ main img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5px;
+  }
+
+  .menu-bar-section-logos .blog div{
+    margin-left: 40px;
+    background-color: rgb(237, 101, 95);
   }
 
   .menu-bar-section-logos a h2{
-    font-size: 16px;
+    font-size: 12px;
     text-align: center;
+    
   }
-}
-
+  
   .images-box-responsive {
     display: flex;
     width: 760px;
@@ -694,6 +724,7 @@ main img {
     justify-content: flex-end;
   }
 }
+
 
 
 /* section adam*/
