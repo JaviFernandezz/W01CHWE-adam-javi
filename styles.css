@@ -591,13 +591,15 @@ main img {
     display: flex;
     flex-direction: row;
     align-items: center;
+    align-content: center;
     justify-content: flex-end;
+    margin-bottom: 15px;
   }
 
   .search-container p{
     display: flex;
     align-items: center;
-    margin: 0px;
+    margin-bottom: 0;
     margin-left: 5px;
   }
   
@@ -631,6 +633,7 @@ main img {
   .input-search-bar {
     border-radius: 0;
     border: 1px solid rgb(186, 184, 182);
+    width: 245px;
   }
 
   .menu-bar-section-logos {
@@ -675,6 +678,7 @@ main img {
   .menu-bar-section-logos .blog div{
     margin-left: 40px;
     background-color: rgb(237, 101, 95);
+    margin-right: 0;
   }
 
   .menu-bar-section-logos a h2{
