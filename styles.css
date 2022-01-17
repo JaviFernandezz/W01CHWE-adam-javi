@@ -626,7 +626,15 @@ main img {
 
   .menu-bar-section-logos a div img {
     width: 50px;
-    
+  }
+
+  .news-search-bar,
+  .offer-search-bar{
+    height: 30px;
+    width: 130px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
   }
   .menu-bar-section-logos a div{
     width: 100px;
@@ -638,11 +646,16 @@ main img {
     margin: 5px;
   }
 
+  .menu-bar-section-logos .blog div{
+    margin-left: 40px;
+    background-color: rgb(237, 101, 95);
+  }
+
   .menu-bar-section-logos a h2{
     font-size: 12px;
     text-align: center;
+    
   }
-}
   .images-box-responsive {
     display: flex;
     width: 760px;
@@ -683,6 +696,8 @@ main img {
     display: flex;
    justify-content: flex-end;
   }
+}
+  
 
  
 
