@@ -312,7 +312,7 @@ a {
 .article-box.container {
   background-color: white;
 }
- 
+
 .cake-icon {
   width: 90px;
   z-index: 1; /*----pending to move ------*/
@@ -580,12 +580,9 @@ main img {
     margin-bottom: 50px;
   }
 
-
   .button-main--brands {
     visibility: visible;
   }
-
-
 
   .search-container {
     display: flex;
@@ -594,13 +591,13 @@ main img {
     justify-content: flex-end;
   }
 
-  .search-container p{
+  .search-container p {
     display: flex;
     align-items: center;
     margin: 0px;
     margin-left: 5px;
   }
-  
+
   .search-bar {
     display: flex;
     flex-direction: row;
@@ -620,14 +617,19 @@ main img {
     position: relative;
   }
 
+
+  .search-icon-container__icon {
+    width: 30px;
+
   .search-icon-container:hover {
     background-color: rgb(122, 122, 122);
   }
   
   .search-icon-container__icon{
     width: 30px; 
+
   }
-  
+
   .input-search-bar {
     border-radius: 0;
     border: 1px solid rgb(186, 184, 182);
@@ -642,6 +644,9 @@ main img {
   .menu-bar-section-logos a div img {
     width: 50px;
   }
+
+  .menu-bar-section-logos a div {
+
 
   .news-search-bar a,
   .offer-search-bar a{
@@ -663,6 +668,7 @@ main img {
   }
 
   .menu-bar-section-logos a div{
+
     width: 100px;
     height: 100px;
     background-color: rgb(242, 242, 242);
@@ -677,12 +683,21 @@ main img {
     background-color: rgb(237, 101, 95);
   }
 
+
+  .menu-bar-section-logos a h2 {
+    font-size: 16px;
+
   .menu-bar-section-logos a h2{
     font-size: 12px;
+
     text-align: center;
     
   }
+
+
+
   
+
   .images-box-responsive {
     display: flex;
     width: 760px;
@@ -723,8 +738,31 @@ main img {
     display: flex;
     justify-content: flex-end;
   }
+
+  .store-elements container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container-info-send {
+    display: flex;
+  }
+
+
+  .store-elements {
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0px;
+    align-items: flex-end;
+  }
+  .store-elements__group {
+    align-items: flex-end;
+  }
+  .container__card-delivery {
+    justify-content: flex-end;
+  }
+  /* section adam*/
 }
 
 
 
-/* section adam*/
