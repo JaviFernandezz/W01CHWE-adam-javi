@@ -635,14 +635,14 @@ main img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5px;
   }
 
   .menu-bar-section-logos a h2{
-    font-size: 16px;
+    font-size: 12px;
     text-align: center;
   }
 }
-=======
   .images-box-responsive {
     display: flex;
     width: 760px;
