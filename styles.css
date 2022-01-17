@@ -570,19 +570,46 @@ main img {
   .images-box-responsive {
     display: flex;
     width: 760px;
-    justify-content: center;
+
     align-items: flex-end;
     flex-direction: row;
     align-content: space-around;
+    justify-content: space-between;
   }
 
   .images-box-left,
   .images-box-right {
     margin: 5px;
-    max-width: max-content;
+
     display: flex;
     flex-direction: column;
   }
-}
+
+  .images-box-left img {
+    width: 480px;
+  }
+  .images-box-right img {
+    width: 300px;
+    height: 337px;
+    object-fit: none;
+  }
+
+  .images-box-right img {
+    height: 414px;
+    content: url(images/pompones.png);
+  }
+
+  .card-text--responsive {
+    height: 100px;
+  }
+
+  .image-container-1 {
+    display: flex;
+   justify-content: flex-end;
+  }
+
+ 
+
+
 
 /* section adam*/
