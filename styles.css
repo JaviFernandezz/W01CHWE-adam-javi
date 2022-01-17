@@ -28,7 +28,9 @@ a {
 .header-container {
   background-color: rgb(249 248 248);
   display: flex;
+  align-items: center;
   justify-content: space-around;
+  position: relative;
 }
 
 .header-box-left {
@@ -425,9 +427,14 @@ main img {
   flex-direction: column;
 }
 
+.menu-bar {
+  display: none;
+}
+
 @media (min-width: 600px) {
   .header-responsive__menu {
     display: block;
+    position: absolute;
   }
   .container {
     min-width: 100% !important;
@@ -470,11 +477,12 @@ main img {
     width: 60px;
     height: 60px;
     z-index: 1;
+    position: relative;
   }
 
   .menu-elements__image-1__space {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 140px;
     background-color: rgb(237, 101, 95);
   }
 
@@ -567,6 +575,74 @@ main img {
     margin-bottom: 50px;
   }
 
+
+  .search-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .search-container p{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    margin-left: 5px;
+  }
+  
+  .search-bar {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+  }
+  .menu-bar {
+    display: block;
+  }
+
+  .search-icon-container {
+    background-color: rgb(186, 184, 182);
+    width: 60px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+  }
+
+  .search-icon-container__icon{
+    width: 30px; 
+  }
+  
+  .input-search-bar {
+    border-radius: 0;
+    border: 1px solid rgb(186, 184, 182);
+  }
+
+  .menu-bar-section-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .menu-bar-section-logos a div img {
+    width: 50px;
+    
+  }
+  .menu-bar-section-logos a div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-bar-section-logos a h2{
+    font-size: 16px;
+    text-align: center;
+  }
+}
+=======
   .images-box-responsive {
     display: flex;
     width: 760px;
@@ -609,6 +685,7 @@ main img {
   }
 
  
+
 
 
 
