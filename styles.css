@@ -22,7 +22,9 @@ a {
   width: 300px;
   opacity: 0.8;
 }
-
+.brands-container-box {
+  display: none;
+}
 .header-container {
   background-color: rgb(249 248 248);
   display: flex;
@@ -563,6 +565,23 @@ main img {
     border-bottom: 2px solid black;
     border-radius: 2px;
     margin-bottom: 50px;
+  }
+
+  .images-box-responsive {
+    display: flex;
+    width: 760px;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    align-content: space-around;
+  }
+
+  .images-box-left,
+  .images-box-right {
+    margin: 5px;
+    max-width: max-content;
+    display: flex;
+    flex-direction: column;
   }
 }
 
