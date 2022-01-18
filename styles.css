@@ -30,7 +30,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: relative;
+  position: fixed;
 }
 
 .header-box-left {
@@ -55,7 +55,6 @@ a {
 
 .header-box__navigation-user {
   width: 60px;
-  display: flex;
   display: flex;
   justify-content: center;
 }
@@ -244,7 +243,6 @@ a {
 .form-container__button:hover,
 .button-main:hover {
   background-color: rgb(255, 255, 255);
-  border: none;
   color: rgb(230, 98, 92);
   font-weight: bold;
   border: 3px solid rgb(230, 98, 92);
@@ -253,7 +251,6 @@ a {
 .form-container__button:active,
 .button-main:active {
   background-color: rgb(230, 98, 92);
-  border: none;
   color: white;
   font-weight: bold;
   border: 3px solid rgb(148, 43, 37);
@@ -421,11 +418,6 @@ main img {
   display: none;
 }
 
-.header-container {
-  position: fixed;
-  z-index: 5;
-}
-
 /* MEDIA QUERIES */
 .container {
   flex-direction: column;
@@ -512,6 +504,7 @@ main img {
     width: 60px;
     z-index: 0;
   }
+  
 
   .header-responsive__menu__elements {
     height: 300px;
